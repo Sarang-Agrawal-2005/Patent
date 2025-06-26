@@ -6,12 +6,12 @@
 }
 
 :root {
-    /* Purple Color Palette */
-    --primary-purple: #9F7AEA;
-    --light-purple: #F3E8FF;
-    --medium-purple: #805AD5;
-    --dark-purple: #553C9A;
-    --accent-purple: #7C3AED;
+    /* Sky Blue Color Palette */
+    --primary-blue: #87CEEB;
+    --light-blue: #E0F6FF;
+    --medium-blue: #5DADE2;
+    --dark-blue: #2E86AB;
+    --accent-blue: #4A90E2;
     
     /* Neutral Colors */
     --white: #FFFFFF;
@@ -25,15 +25,15 @@
     --font-secondary: 'Poppins', sans-serif;
     
     /* Shadows */
-    --shadow-sm: 0 1px 2px 0 rgba(159, 122, 234, 0.05);
-    --shadow-md: 0 4px 6px -1px rgba(159, 122, 234, 0.1);
-    --shadow-lg: 0 10px 15px -3px rgba(159, 122, 234, 0.1);
-    --shadow-xl: 0 20px 25px -5px rgba(159, 122, 234, 0.1);
+    --shadow-sm: 0 1px 2px 0 rgba(135, 206, 235, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(135, 206, 235, 0.1);
+    --shadow-lg: 0 10px 15px -3px rgba(135, 206, 235, 0.1);
+    --shadow-xl: 0 20px 25px -5px rgba(135, 206, 235, 0.1);
 }
 
 body {
     font-family: var(--font-primary);
-    background: linear-gradient(135deg, var(--light-purple) 0%, var(--white) 100%);
+    background: linear-gradient(135deg, var(--light-blue) 0%, var(--white) 100%);
     color: var(--text-dark);
     line-height: 1.6;
     min-height: 100vh;
@@ -73,12 +73,12 @@ body {
     font-family: var(--font-secondary);
     font-weight: 600;
     font-size: 1.25rem;
-    color: var(--dark-purple);
+    color: var(--dark-blue);
 }
 
 .logo i {
     font-size: 1.5rem;
-    color: var(--primary-purple);
+    color: var(--primary-blue);
 }
 
 .mobile-menu-btn {
@@ -91,7 +91,7 @@ body {
 .mobile-menu-btn span {
     width: 25px;
     height: 3px;
-    background: var(--dark-purple);
+    background: var(--dark-blue);
     margin: 3px 0;
     transition: 0.3s;
     border-radius: 2px;
@@ -121,7 +121,7 @@ body {
 }
 
 .pdf-controls {
-    background: linear-gradient(135deg, var(--primary-purple), var(--medium-purple));
+    background: linear-gradient(135deg, var(--primary-blue), var(--medium-blue));
     padding: 1.5rem 2rem;
     color: var(--white);
 }
@@ -157,7 +157,7 @@ body {
 }
 
 .pdf-container a {
-    color: var(--accent-purple);
+    color: var(--accent-blue);
     text-decoration: none;
     font-weight: 500;
 }
@@ -192,7 +192,7 @@ body {
     left: 0;
     right: 0;
     height: 4px;
-    background: linear-gradient(90deg, var(--primary-purple), var(--medium-purple));
+    background: linear-gradient(90deg, var(--primary-blue), var(--medium-blue));
 }
 
 .detail-card:hover {
@@ -203,7 +203,7 @@ body {
 .detail-icon {
     width: 60px;
     height: 60px;
-    background: linear-gradient(135deg, var(--light-purple), var(--primary-purple));
+    background: linear-gradient(135deg, var(--light-blue), var(--primary-blue));
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -214,14 +214,14 @@ body {
 
 .detail-icon i {
     font-size: 1.5rem;
-    color: var(--dark-purple);
+    color: var(--dark-blue);
 }
 
 .detail-card h4 {
     font-family: var(--font-secondary);
     font-size: 1.1rem;
     font-weight: 600;
-    color: var(--dark-purple);
+    color: var(--dark-blue);
     margin-bottom: 0.5rem;
 }
 
@@ -248,7 +248,7 @@ body {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, var(--primary-purple), var(--medium-purple));
+    background: linear-gradient(135deg, var(--primary-blue), var(--medium-blue));
     color: var(--white);
     box-shadow: var(--shadow-sm);
 }
@@ -256,7 +256,7 @@ body {
 .btn-primary:hover {
     transform: translateY(-2px);
     box-shadow: var(--shadow-md);
-    background: linear-gradient(135deg, var(--medium-purple), var(--dark-purple));
+    background: linear-gradient(135deg, var(--medium-blue), var(--dark-blue));
 }
 
 /* Responsive Design */
@@ -362,18 +362,18 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--primary-purple);
+    background: var(--primary-blue);
     border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--medium-purple);
+    background: var(--medium-blue);
 }
 
 /* Focus States for Accessibility */
 .btn:focus,
 .detail-card:focus {
-    outline: 2px solid var(--accent-purple);
+    outline: 2px solid var(--accent-blue);
     outline-offset: 2px;
 }
 
